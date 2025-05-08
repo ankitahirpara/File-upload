@@ -35,8 +35,8 @@ const upload = multer({
 });
 
 const downloadLimiter = rateLimit({
-  windowMs: 1 * 60 * 1000, 
-  max: 1
+  windowMs: 15 * 60 * 1000, 
+  max: 100
 });
 
 
